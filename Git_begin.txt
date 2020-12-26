@@ -1,0 +1,28 @@
+1. Git의 설치를 완료
+
+2. git config --global
+# 단일 프로젝트가 아니라 컴퓨터 전체에서 동일한 옵션을 사용할 수 있도록 설정
+
+2-1. git config --global user.name BaekgyeomKim
+
+2-2. git config --global user.email kwe7541@gmail.com
+
+3. cd gimbaeggyeom (Mac의 home directory)
+# directory 변경, 폴더 이동
+
+4. git clone https://github.com/BaekgyeomKim/Git-tutorial.git
+# remote repository(깃허브 서버)에 저장되어 있는 파일들을 local repository(사용하고 있는 컴퓨터)로 동기화
+
+5. 임의의 파일 생성(여기서는 이 파일, Git_begin.txt)
+
+6. cd Git-tutorial
+
+7. git add Git_begin.txt
+# 파일을 추가
+
+8. git commit -m "Add Text File [Git_begin.txt]"
+# commit을 통해 파일이 업로드된 시점을 스냅샷처럼 찍어 놓음으로써 원상태로 복구를 하는 등의 목적으로 사용 가능
+# commit을 하면 우리의 컴퓨터에는 적용
+# push 명령어를 통해 원격 저장소에도 적용
+
+9. git push 
