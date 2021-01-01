@@ -26,3 +26,7 @@ git add Git_begin.txt
 git commit -m "Add Text File [Git_begin.txt]"
 
 git push 
+
+# clone 해 온 주소에서 최신 commit 상태를 받아 올 수 있다.
+git pull
+
